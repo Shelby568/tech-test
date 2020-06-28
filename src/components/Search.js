@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import '../styles/Search.css';
 import getImages from '../requests/getImages';
 
@@ -7,7 +8,6 @@ const Search = ({ setSearchResults, searchText, setSearchText }) => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         setSearchResults(await getImages(searchText));
-
     };
 
     return (
@@ -19,5 +19,12 @@ const Search = ({ setSearchResults, searchText, setSearchText }) => {
         </>
     );
 };
+
+Search.propTypes = {
+    setSearchResults: PropTypes.func,
+    searchText: PropTypes.string,
+    setSearchText: PropTypes.func
+
+}
 
 export default Search;

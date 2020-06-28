@@ -14,7 +14,7 @@ exports[`Search make sure component renders correctly 1`] = `
       class="submit"
       type="submit"
     >
-      Search
+      Go!
     </button>
   </form>
 </DocumentFragment>

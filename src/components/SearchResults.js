@@ -1,10 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import '../styles/SearchResults.css';
 
-const SearchResults = ({ results, setStatus }) => {
-
-    setStatus('loading');
-
+const SearchResults = ({ results }) => {
         return (
             <>
             <div className="images">
@@ -14,9 +12,10 @@ const SearchResults = ({ results, setStatus }) => {
             </div>
             </>
         );
-    
     };
         
-
+SearchResults.propTypes = {
+    results: PropTypes.array.isRequired
+}
 
 export default SearchResults;
