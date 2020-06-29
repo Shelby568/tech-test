@@ -21,7 +21,7 @@ PropTypes
 
 Instructions
 
-Clone this repo to your local machine using
+Clone this repo to your local machine using https://github.com/Shelby568/tech-test
 cd into Project
 npm start
 
