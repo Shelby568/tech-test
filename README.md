@@ -1,5 +1,7 @@
 Tech-Test
 
+![alt text](https://github.com/Shelby568/tech-test/tree/master/public/example.png)
+
 Requirements
 
 To build a React web application that allows users to search for images based on a query relating to space.
