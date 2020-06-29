@@ -1,3 +1,33 @@
+Tech-Test
+
+Requirements
+
+To build a React web application that allows users to search for images based on a query relating to space.
+
+Functionalities Implemented
+
+A search page which allows users to search for images by keyword
+Images returned upon a successful search
+
+Testing Utilities
+
+Jest
+React Testing Library
+
+Packages
+
+Axios
+PropTypes
+
+Instructions
+
+Clone this repo to your local machine using
+cd into Project
+npm start
+
+If I had more time to work on this project, I would have added moved the 'No Results' message to the submit as it is currently linked to the onChange. I would have also added a loading indicator.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
